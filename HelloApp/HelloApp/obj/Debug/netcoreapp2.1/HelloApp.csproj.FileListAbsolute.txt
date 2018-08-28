@@ -1,0 +1,14 @@
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\bin\Debug\netcoreapp2.1\HelloApp.deps.json
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\bin\Debug\netcoreapp2.1\HelloApp.runtimeconfig.json
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\bin\Debug\netcoreapp2.1\HelloApp.runtimeconfig.dev.json
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\bin\Debug\netcoreapp2.1\HelloApp.dll
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\bin\Debug\netcoreapp2.1\HelloApp.pdb
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\obj\Debug\netcoreapp2.1\HelloApp.csprojAssemblyReference.cache
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\obj\Debug\netcoreapp2.1\HelloApp.csproj.CoreCompileInputs.cache
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\obj\Debug\netcoreapp2.1\HelloApp.RazorAssemblyInfo.cache
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\obj\Debug\netcoreapp2.1\HelloApp.RazorAssemblyInfo.cs
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\obj\Debug\netcoreapp2.1\HelloApp.AssemblyInfoInputs.cache
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\obj\Debug\netcoreapp2.1\HelloApp.AssemblyInfo.cs
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\obj\Debug\netcoreapp2.1\HelloApp.RazorTargetAssemblyInfo.cache
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\obj\Debug\netcoreapp2.1\HelloApp.dll
+D:\SoftServe\Projects\C#\Core\HelloApp\HelloApp\obj\Debug\netcoreapp2.1\HelloApp.pdb

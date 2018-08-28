@@ -1,0 +1,22 @@
+Failed to locate the development https certificate at '(null)'.
+Hosting started
+Loaded hosting startup assembly HelloApp
+Loaded hosting startup assembly Microsoft.AspNetCore.Server.IISIntegration
+Connection id "0HLG7LUC26GU3" started.
+Connection id "0HLG7LUC26GU4" started.
+Request starting HTTP/1.1 GET http://localhost:44315/  
+Request starting HTTP/1.1 DEBUG http://localhost:51426/  0
+Wildcard detected, all requests with hosts will be allowed.
+Wildcard detected, all requests with hosts will be allowed.
+All hosts are allowed.
+All hosts are allowed.
+Processing request /
+Connection id "0HLG7LUC26GU3" completed keep alive response.
+Request finished in 47.4425ms 200 
+Connection id "0HLG7LUC26GU4" completed keep alive response.
+Request finished in 53.8505ms 200 
+Request starting HTTP/1.1 GET http://localhost:44315/favicon.ico  
+All hosts are allowed.
+Processing request /favicon.ico
+Connection id "0HLG7LUC26GU3" completed keep alive response.
+Request finished in 11.0893ms 200 
