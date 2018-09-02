@@ -19,6 +19,12 @@ namespace HelloApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDirectoryBrowser();
+            services.AddDistributedMemoryCache();
+            services.AddSession(options =>
+            {
+                options.Cookie.Name = ".MyApp.Session";
+                options.IdleTimeout = TimeSpan.FromSeconds(3600);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,13 +63,66 @@ namespace HelloApp
             //    pipeline(next => SendResponseAsync);
             //});
             //--------------------
-            loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
-            var logger = loggerFactory.CreateLogger("FileLogger");
+            //loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
+            //var logger = loggerFactory.CreateLogger("FileLogger");
 
+            //app.Run(async (context) =>
+            //{
+            //    logger.LogInformation("Processing request {0}", context.Request.Path);
+            //    await context.Response.WriteAsync("Hello World!");
+            //});
+            //------------------------
+            //app.Use(async (context, next) =>
+            //{
+            //    context.Items["text"] = "Text from HttpContext.Items";
+            //    await next.Invoke();
+            //});
+
+            //app.Run(async (context) =>
+            //{
+            //    context.Response.ContentType = "text/html; charset=utf-8";
+            //    await context.Response.WriteAsync($"Текст: {context.Items["text"]}");
+            //});
+            //app.Run(async (context) =>
+            //{
+            //    if (context.Request.Cookies.ContainsKey("name"))
+            //    {
+            //        string name = context.Request.Cookies["name"];
+            //        await context.Response.WriteAsync($"Hello {name}!");
+            //    }
+            //    else
+            //    {
+            //        context.Response.Cookies.Append("name", "Tom");
+            //        await context.Response.WriteAsync("Hello World!");
+            //    }
+            //});
+            //----------------
+            //app.UseSession();
+            //app.Run(async (context) =>
+            //{
+            //    if (context.Session.Keys.Contains("name"))
+            //        await context.Response.WriteAsync($"Hello {context.Session.GetString("name")}!");
+            //    else
+            //    {
+            //        context.Session.SetString("name", "Tom");
+            //        await context.Response.WriteAsync("Hello World!");
+            //    }
+            //});
+            ////-------------
+            ///app.UseSession();
             app.Run(async (context) =>
             {
-                logger.LogInformation("Processing request {0}", context.Request.Path);
-                await context.Response.WriteAsync("Hello World!");
+                if (context.Session.Keys.Contains("person"))
+                {
+                    Person person = context.Session.Get<Person>("person");
+                    await context.Response.WriteAsync($"Hello {person.Name}!");
+                }
+                else
+                {
+                    Person person = new Person { Name = "Tom", Age = 22 };
+                    context.Session.Set<Person>("person", person);
+                    await context.Response.WriteAsync("Hello World!");
+                }
             });
         }
         public Task SendResponseAsync(IDictionary<string, object> environment)

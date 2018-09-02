@@ -1,0 +1,11 @@
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\obj\Debug\netcoreapp2.0\JsonConfig.csprojAssemblyReference.cache
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\obj\Debug\netcoreapp2.0\JsonConfig.csproj.CoreCompileInputs.cache
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\obj\Debug\netcoreapp2.0\JsonConfig.AssemblyInfoInputs.cache
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\obj\Debug\netcoreapp2.0\JsonConfig.AssemblyInfo.cs
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\bin\Debug\netcoreapp2.0\JsonConfig.deps.json
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\bin\Debug\netcoreapp2.0\JsonConfig.runtimeconfig.json
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\bin\Debug\netcoreapp2.0\JsonConfig.runtimeconfig.dev.json
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\bin\Debug\netcoreapp2.0\JsonConfig.dll
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\bin\Debug\netcoreapp2.0\JsonConfig.pdb
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\obj\Debug\netcoreapp2.0\JsonConfig.dll
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\JsonConfig\JsonConfig\obj\Debug\netcoreapp2.0\JsonConfig.pdb

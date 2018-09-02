@@ -1,0 +1,11 @@
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\bin\Debug\netcoreapp2.0\DI.deps.json
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\bin\Debug\netcoreapp2.0\DI.runtimeconfig.json
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\bin\Debug\netcoreapp2.0\DI.runtimeconfig.dev.json
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\bin\Debug\netcoreapp2.0\DI.dll
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\bin\Debug\netcoreapp2.0\DI.pdb
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\obj\Debug\netcoreapp2.0\DI.csprojAssemblyReference.cache
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\obj\Debug\netcoreapp2.0\DI.csproj.CoreCompileInputs.cache
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\obj\Debug\netcoreapp2.0\DI.AssemblyInfoInputs.cache
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\obj\Debug\netcoreapp2.0\DI.AssemblyInfo.cs
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\obj\Debug\netcoreapp2.0\DI.dll
+D:\SoftServe\Projects\C#\Core\Tutorial\ASP.NET-Core-tutorial\DI\DI\obj\Debug\netcoreapp2.0\DI.pdb
